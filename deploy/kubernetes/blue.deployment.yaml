@@ -9,14 +9,14 @@ metadata:
   generation: 21
   labels:
     app: blue
-    io.codefresh.account.name: todaywasawesome
+    io.codefresh.account.name: codefreshdemo
     io.codefresh.auto-generated: b5022a04-89fe-4516-aa1b-2c62d1e6e634
     io.codefresh.generated-at: "1529694169042"
-    io.codefresh.pipeline.id: 5b2d45cdefa44584b757c008
-    io.codefresh.pipeline.name: todaywasawesome-color-coded-color-coded
+    io.codefresh.pipeline.id: 5dd52f9d751f05a63af86734
+    io.codefresh.pipeline.name: AdvancedDeployment/CanaryIstio
     io.codefresh.process.id: 5b31d3b9467a8d000141d03f
     io.codefresh.scm.branch: master
-    io.codefresh.scm.revision: 6aec0957538ad193718aa652e0bbd1f6e6300f9e
+    io.codefresh.scm.revision: 0cb4c3ea9aff6b90df73c307b68486976e3bdf5a
   name: blue
   namespace: canary
   resourceVersion: "2013674"
@@ -51,7 +51,7 @@ spec:
           value: '#44B3C2'
         - name: blank
           value: blank
-        image: r.cfcr.io/todaywasawesome/todaywasawesome/colorcoded:master
+        image: r.cfcr.io/codefreshdemo/todaywasawesome/colorcoded:master
         imagePullPolicy: Always
         name: blue
         ports:
