@@ -14,6 +14,6 @@ spec:
       name: http
       protocol: HTTP
     hosts: 
-    - colors.demo4591.codefresh.io
+    - colors-guy.cf-cd.com
 ---
 
