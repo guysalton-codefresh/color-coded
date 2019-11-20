@@ -4,7 +4,7 @@
 deployment:
   - track: release
     image:
-      repository: r.cfcr.io/todaywasawesome/todaywasawesome/colorcoded
+      repository: r.cfcr.io/codefreshdemo/todaywasawesome/colorcoded
       tag: 'master'
       version: 'color'
       pullSecret: codefresh-generated-r.cfcr.io-cfcr-default
@@ -27,5 +27,5 @@ service:
   internalPort: 8080
 
 istio:
-  host: colors.demo4591.codefresh.io
+  host: colors-guy.cf-cd.com
   namespace: color
