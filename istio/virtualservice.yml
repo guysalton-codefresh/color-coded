@@ -9,7 +9,7 @@ spec:
   gateways:
   - colors
   hosts:
-  - colors.demo4591.codefresh.io
+  - colors-guy.cf-cd.com
   http:
   - route:
     - destination:
