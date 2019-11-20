@@ -7,7 +7,7 @@ deployment:
       repository: r.cfcr.io/codefreshdemo/todaywasawesome/colorcoded
       tag: 'master'
       version: 'color'
-      pullSecret: codefresh-generated-r.cfcr.io-cfcr-default
+      pullSecret: codefresh-generated-r.cfcr.io-cfcr-color-coded
   # - track: canary
   #   image:
   #     repository: r.cfcr.io/todaywasawesome/todaywasawesome/demochat
